@@ -47,4 +47,16 @@
 		- `Methods`. You should understand XP, Scrum, Lean, Kanban Waterfall, Structured Analysis, and Structured Design.
 		- `Disciplines`. You should practice TDD, object-oriented design, Structured programming, Continuous integration and pair programming.
 		- Artifacts. You should know how to use: UML, DFDs, Structure Charts, Petri Nets State Transition Diagram and Tables, flow charts and decision tables.
-- 
+- `Practice`:
+	- Professionals practice. True professional work hard to keep their skills sharp and ready
+	- It is not enough to simply do your daily job and call that practice.
+	- `Doing your daily job is performance not practice.` Practice is when you specifically exercise your skills outside of the performance of your job for the sole purpose of refining and enhancing those skills.
+- `Collaboration`:
+	- The second best way to learn is to collaborate with other people. Professional software developers make a special effort to program together practice together, design and plan together. By doing so they learn a lot from each other, and they get more faster with few errors.
+	- This doesn't means you have to spend 100% of your time working with others. Alone time is also very important As much as I like to pair programing with others, it makes me crazy if I can't get away by myself from time to time.
+- `Identify with your employer/customer`:
+	- Your employer's problem are your problem. You need to understand what those problem are and work the best solution.
+	- As you develop a system you need to put yourself in your employer's shoes and make sure that the features you are developing are really going to address your employer's needs.
+	- It is easy for developers to identify with each other. It's easy to fall into an us versus them with them with your employer. Professionals avoid this at all costs.
+- `Humility`:
+	- 
