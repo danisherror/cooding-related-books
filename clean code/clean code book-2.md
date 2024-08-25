@@ -1,0 +1,50 @@
+> Robert C. Martin
+
+---
+
+- You never quit the job without having a new job, and you always quit calmly, coolly and alone
+- if a non-professional makes an error, the employer cleans up the mess, But when a professional makes a mistake, he clean up the mess.
+- In the situation in which, i have to release the new version today and I have not tested it. Now there will be some choices :
+	- There is no bug in the update and everyone is happy
+	- Update is already installed and bug is founded, now I have more pressure on me, to solve the bug, and customers were told to use the older version
+	- Try to increase the deadline and tell them I first verify there are bugs in the update and then install the update
+-  The first thing you must practice is `Apolozing`. Apologies are necessary, but insufficient. You cannot simply keep making the same error over and over. As you mature in your profession, your error rate should rapidly decrease towards the asymptote of zero. It won't ever get to zero, but it is your responsibility yo get as close as possible to it.
+- It is unprofessional in the extreme to purposely send code that you know to be faulty to QA. 
+	- What code do you know to be faulty? Any code you aren't certain about.
+- Will QA find bugs? Probably, so get ready to apologize and then figure out why those bugs manage to escape your notice and do something to prevent it from happening again
+- Every time QA, or worse `user`, finds a problem, you should be surprised, chagrined and determined to prevent it from happening again.
+- How can you know your code works? `That's easy`. `Test it`. `Test it again`. `Test it up`. `Test it down`. `Test it seven ways to Sunday!`
+- `Automate your tests`
+	- Testing you code so much will take too much time. After al you've got schedule and deadlines to keep.
+	- If you spend all your time testing, you'll  never gets anything else written.
+	- `Good point!` So, automate your tests. Write units tests that you can execute on a moment's notice, and run those test as often as you can.
+	- How much of the code should be tested with all these automated unit tests? `All of it!` `All. Of. It.`
+	- Am I suggesting 100% test coverage? No, I'm not `suggesting` it. I'm `demanding` it. Every single line of code that you write should be tested.
+	- `But isn't some code hard to test? Yes, but only because that code has been designed to be hard to test.`
+		- `The solution to that is to design your code to be easy to test. and the best way to do that is to write your tests first, before you write the code that passes them.`
+	- <span color="Red">Test Driven Development</span>
+- `Do No Harm To Structure`:
+	- It is the structure of your code that allows it to be flexible. If you compromise the structure, you compromise the future.
+	- The fundamental assumption underlying all software projects is that software is easy to change. If you violate this assumption by creating inflexible structures, then you undercut the economic model that the entire industry is depend on.
+		- In short: `You must be able to make changes without exorbitant costs.`
+	- `If you want your software to be lexible, you have to flex it.`
+	- The only way to prove that your software is easy to change it to make easy changes to it. and when you find that changes aren't as easy as you thought, you refine the design so that the next change is easier.
+	- when do you make these easy changes? All the time! Every time you look at a module you make small, lightweight changes to it to improve its structure. Every time you read through the code you adjust the structure.
+	- This Philosophy is sometimes called `merciless refactoring` : Always check in a module cleaner that when you checked it out. Always make some random act of kindness to the code whenever you see it.
+	- Why do most developers fear to make continuous changes to their code? They are afraid they'll break it! Why are they afraid they'll break it? `Because thay don't have tests`.
+	- I all comes back to the `tests`. If you have an automated suite of tests that covers virtually 100% of the code and of that suite of test can be executed quickly of a whim, then you simply will not be afraid to change the code. How do you prove you are not afraid to change the code? `You change it all the time.`
+- `Works Ethic`:
+	- `You should plan on working 60 hours per week. The first 40 are for your employer. The remaining 20 are for you. During this remaining 20 hours you should be reading, practicing, learning and otherwise enhancing your career`
+		- I'm not taking about all your free time here. I'm taking about 20 extra hours per week. That's roughly three hours per day. If you use your lunch hour to read, listen to podcast on your commute, and spend 90 minutes per day learning new language, you'll have it all covered.
+		- ` Don the math. In a week there are 168 hours. Give your employeer 40, and your career another 20, That leaves 108. Another 56 for sleep leaves 52 for everything else.`
+		- Sometimes these two are aligned(20 and 40 hours) with each other. Sometimes the work you do for your employer is greatly beneficial to your career. In that case, spending some of that 20 hours on it is reasonable. But remember, those 20 hours are for you. They are to be make yourself more valuable as a professional.
+		- During that 20 hours you should be doing those things that reinforce the passionate about software and your desire to be a professional is motivated by passion. Those 20 hours should be fun!
+- `Know your Field`:
+	- `Those who cannot remember that past are condemmed to tepeat it.`
+	- Here is a minimal list of the things that every software professional should be conversant with:
+		- `Design patterns`. You ought to be able to describe all 24 patterns in the GOF book and have a working knowledge of many of the pattern in the POSA books.
+		- `Design principles`. You should know the SOLID principles and have a good knowledge of the component principles.
+		- `Methods`. You should understand XP, Scrum, Lean, Kanban Waterfall, Structured Analysis, and Structured Design.
+		- `Disciplines`. You should practice TDD, object-oriented design, Structured programming, Continuous integration and pair programming.
+		- Artifacts. You should know how to use: UML, DFDs, Structure Charts, Petri Nets State Transition Diagram and Tables, flow charts and decision tables.
+- 
