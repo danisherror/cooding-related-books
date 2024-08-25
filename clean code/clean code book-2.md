@@ -9,6 +9,8 @@
 	- Update is already installed and bug is founded, now I have more pressure on me, to solve the bug, and customers were told to use the older version
 	- Try to increase the deadline and tell them I first verify there are bugs in the update and then install the update
 -  The first thing you must practice is `Apolozing`. Apologies are necessary, but insufficient. You cannot simply keep making the same error over and over. As you mature in your profession, your error rate should rapidly decrease towards the asymptote of zero. It won't ever get to zero, but it is your responsibility yo get as close as possible to it.
+- `Professionals speaks truth to power. Professionals have the courage to say no th their managers.`
+	- Slaves are not allowed to say no. Laborers may be hesitant to say no. But professionals are expected to say no. Indeed, good managers crave someone who has the guts to say no. It's the only way you can really get anything done.
 - It is unprofessional in the extreme to purposely send code that you know to be faulty to QA. 
 	- What code do you know to be faulty? Any code you aren't certain about.
 - Will QA find bugs? Probably, so get ready to apologize and then figure out why those bugs manage to escape your notice and do something to prevent it from happening again
@@ -59,4 +61,34 @@
 	- As you develop a system you need to put yourself in your employer's shoes and make sure that the features you are developing are really going to address your employer's needs.
 	- It is easy for developers to identify with each other. It's easy to fall into an us versus them with them with your employer. Professionals avoid this at all costs.
 - `Humility`:
-	- 
+	- Programming is the act of creation,
+	- When we write code we are creating something out of nothing.
+- `Adversarial roles`:
+	- Managers are people with a job to do and most managers know how to do and most of them know how to get that job done pretty well and defend their objective as aggressively as they can.
+	- By the same token, programmers are also people with a job to do and most of them know how to get that job done pretty well. If they are professionals they will pursue and defend their objective aggressively as they can.
+- `High Stakes`:
+	- The most important time to say `no` is when the stakes are highest. The higher the stakes the more valuable `no` becomes.
+- `Being a "Team Player"`:
+	-  We've all heard how important it is to be a `team player`. Being a team player means playing your position as well as you possibly can and helping out your teammates when they get into a jam. A team-player communicates frequently, keeps an eye out for his or her teammates, and executes his or her own responsibilities as we as possible
+	- A team player is not someone who says `yea` all the time.
+- `Language od commitment`:
+	- There are three parts to make a commitment:
+		- You say you'll do it
+		- You mean it
+		- You actually do it
+- `Recognizing lack of commitment`
+	- `Need\should`: We heed to get this done. "I need to lose weight". "Someone should make that happen".
+	- `Hope\wish`: "I hope to get this done by tomorrow". "I hope we can meet again some day". "I wish I had time for that". "I wish this computer was faster".
+	- `Let's`: (not followed by "I....") "Let's meet sometime". "Let's finish this thing".
+- `What does commitment sound like`:
+	- `I will .... by ...`
+	- `It wouldn't work because I rely on person X to get this done`
+		- If the end goal depends on someone else, you should commit to specific actions that brings you closer to the end goal
+- `Preparedness`:
+	- First, `Your code must work.` You must understand what problem you are solving and understand how to solve that problem, You must ensure that the code you write is a faithful representation of that solution. You must manage every detail of that solution while remaining consistent within the language, platform, current architecture, and all the warts of the current system.
+	- `Your code must solve the problem set for you by the customer. `Often the customer's requirements do not actually solve the customer's problem. It is up to you to see this and negotiate with the customer to ensure that customer's true needs are meet
+	- `Your code must fit well into the existing system.` It should not increase the rigidity , fragility and opacity of that system. The dependencies must be well-managed. In short, `your code need to follow solid engineering principles.`
+	- `Your code must be readable by other programmers.` This is not simply a matter of writing nice comments. Rather, `it requires that you craft the code in such a way that it reveals your intent` This is hard to do. Indeed, this may be the most difficult things a programmer can master.
+- Spent a hour with yourself if your are having some issues and first try to resolve them and then try to code.
+	- Time should not increase by more than 1 hour.
+- 
